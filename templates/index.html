@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Bienvenido a Calctree</h1>
+<p>Aquí tienes algunos conversores generales. Para consultas más específicas, 
+    visita las secciones correspondientes en la barra de navegación.</p>
+
+{% for conv in converters %}
+    <section class="converter-block">
+        <h2>{{ conv.title }}</h2>
+        <p>{{ conv.description }}</p>
+
+        <form method="POST">
+            <input type="hidden" name="converter_id" value="{{ conv.id }}">
+
+            <label for="value-{{ conv.id }}">Cantidad:</label>
+            <input type="number" value="{{input_val}}" step="any" id="value-{{ conv.id }}" name="value" required>
+
+            <label for="unit-{{ conv.id }}">Conversión:</label>
+            <select id="unit-{{ conv.id }}" name="unit" required>
+                {% for u in conv.units %}
+                    <option value="{{ u.unit_res }}_{{ u.unit_in }}">{{ u.label }}</option>
+                {% endfor %}
+            </select>
+
+            <button type="submit">Convertir</button>
+        </form>
+
+        {% if results.get(conv.id) %}
+            <div class="result-box" style="text-align: center;">
+                <strong>Resultado:</strong> {{ results[conv.id] }}
+            </div>
+        {% endif %}
+    </section>
+{% endfor %}
+{% endblock %}
