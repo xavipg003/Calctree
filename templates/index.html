@@ -5,29 +5,44 @@
     visita las secciones correspondientes en la barra de navegación.</p>
 
 {% for conv in converters %}
-    <section class="converter-block">
+    <section class="converter-block" id="{{ conv.id }}">
         <h2>{{ conv.title }}</h2>
         <p>{{ conv.description }}</p>
 
         <form method="POST">
             <input type="hidden" name="converter_id" value="{{ conv.id }}">
 
-            <label for="value-{{ conv.id }}">Cantidad:</label>
-            <input type="number" value="{{input_val}}" step="any" id="value-{{ conv.id }}" name="value" required>
+            {% if conv.type == "single" %}
+                <label for="value-{{ conv.id }}">Cantidad:</label>
 
-            <label for="unit-{{ conv.id }}">Conversión:</label>
-            <select id="unit-{{ conv.id }}" name="unit" required>
-                {% for u in conv.units %}
-                    <option value="{{ u.unit_res }}_{{ u.unit_in }}">{{ u.label }}</option>
+                {% if input_vals.conv_id == conv.id %}
+                    <input type="number" value="{{input_vals.value}}" step="any" id="value-{{ conv.id }}" name="value" required>
+                {% else %}
+                    <input type="number" value="" step="any" id="value-{{ conv.id }}" name="value" required>
+                {% endif %}
+
+
+                <label for="unit-{{ conv.id }}">Cálculo:</label>
+                <select id="unit-{{ conv.id }}" name="unit" required>
+                    {% for u in conv.units %}
+                        <option value="{{ u.unit_res }}_{{ u.unit_in }}">{{ u.label }}</option>
+                    {% endfor %}
+                </select>
+
+                <button type="submit">Convertir</button>
+            {% else %}
+                {% for unit in conv.units_in %}
+                    <label for="value-{{ conv.id }}-{{ unit }}">{{ unit }}:</label>
+                    <input type="number" id="value-{{ conv.id }}-{{ unit }}" name="value" step="any" required>
                 {% endfor %}
-            </select>
 
-            <button type="submit">Convertir</button>
+                <button type="submit">Calcular</button>
+            {% endif %}
         </form>
 
-        {% if results.get(conv.id) %}
+        {% if results.conv_id == conv.id %}
             <div class="result-box" style="text-align: center;">
-                <strong>Resultado:</strong> {{ results[conv.id] }}
+                <strong>Resultado:</strong> {{ results.string }}
             </div>
         {% endif %}
     </section>

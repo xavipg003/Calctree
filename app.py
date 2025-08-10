@@ -1,7 +1,8 @@
-from flask import Flask, render_template, request
-from . import conv_list
+from flask import Flask, render_template, request, redirect, url_for, session
+from . import conv_list, utils
 
 app = Flask(__name__)
+app.secret_key="jv<?8._BOM'QDqciW1Dx"
 
 if __name__ == "__main__":
     app.run(debug=True)
@@ -10,29 +11,24 @@ if __name__ == "__main__":
 def main():
     converters=conv_list.general()
     results={}
-    input_val=0
+    input_vals={}
 
     if request.method == "POST":
         try:
-            value = float(request.form["value"])
-            
-            unit = request.form["unit"]
-
-            unit_res, unit_in = unit.split("_")
-
             conv_id = request.form["converter_id"]
 
             converter = next((c for c in converters if c["id"] == conv_id), None)
-            if converter:
-                result_value = converter["formula"](value, unit_res)
-                results[conv_id] = f"{value} ({unit_in}) → {result_value} ({unit_res})"
-                input_val = value
-            else:
-                results[conv_id] = "⚠️ Conversor no encontrado."
-        except ValueError:
-            results[request.form["converter_id"]] = "⚠️ Introduce un número válido."
-
-    return render_template("index.html", converters=converters, results=results, input_val=input_val)
+            utils.process_data(converter, conv_id)
+            
+            return redirect(url_for("main") + f"#{conv_id}")
+        except ValueError as e:
+            print("ERROR")
+            print(e)
+    else:
+        results=session.pop("results", {})
+        input_vals=session.pop("input_vals", {})
+        
+    return render_template("index.html", converters=converters, results=results, input_vals=input_vals)
 
 @app.route("/hidro")
 def hidro():
