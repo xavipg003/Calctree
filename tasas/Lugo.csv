@@ -1,0 +1,272 @@
+ESPECIE,PARÁMETRO,FORMA DE CUBICACIÓN,Modelo,A,B,C,D,P,Q,R,DNM
+Pinus sylvestris,VCC,1.0,1.0,10.66,0.0003393,-,-,-,-,-,-
+Pinus sylvestris,VCC,2.0,1.0,10.66,0.0003393,-,-,-,-,-,-
+Pinus sylvestris,VCC,3.0,1.0,2.55,0.0003295,-,-,-,-,-,-
+Pinus sylvestris,VCC,5.0,1.0,36.68,0.000206,-,-,-,-,-,-
+Pinus sylvestris,VSC,1.0,7.0,-4.58,0.8366685,5.32e-05,-,-,-,-,-
+Pinus sylvestris,VSC,2.0,7.0,-4.58,0.8366685,5.32e-05,-,-,-,-,-
+Pinus sylvestris,VSC,3.0,7.0,-0.65,0.7831115,-8.5e-06,-,-,-,-,-
+Pinus sylvestris,VSC,5.0,7.0,-3.43,0.8209285,0.000186,-,-,-,-,-
+Pinus sylvestris,IAVC,1.0,21.0,-,-,0.0003816,-1.5258e-07,-,-,-,-
+Pinus sylvestris,IAVC,2.0,21.0,-,-,0.0003816,-1.5258e-07,-,-,-,-
+Pinus sylvestris,IAVC,3.0,21.0,-,-,0.0003816,-1.5258e-07,-,-,-,-
+Pinus sylvestris,IAVC,5.0,21.0,-,-,0.0003816,-1.5258e-07,-,-,-,-
+Pinus sylvestris,VLE,1.0,12.0,-,-,-,-,0.0001194,2.14645,-,-
+Pinus sylvestris,VLE,2.0,12.0,-,-,-,-,0.0001194,2.14645,-,-
+Pinus sylvestris,VLE,3.0,12.0,-,-,-,-,0.0001194,2.14645,-,-
+Pinus sylvestris,VLE,5.0,12.0,-,-,-,-,0.0001194,2.14645,-,-
+Pinus pinaster,VCC,1.0,1.0,25.95,0.0003052,-,-,-,-,-,-
+Pinus pinaster,VCC,2.0,1.0,25.95,0.0003052,-,-,-,-,-,-
+Pinus pinaster,VCC,3.0,1.0,6.38,0.0002405,-,-,-,-,-,-
+Pinus pinaster,VCC,5.0,1.0,38.41,0.000208,-,-,-,-,-,-
+Pinus pinaster,VSC,1.0,7.0,-15.67,0.7339778,1.52e-05,-,-,-,-,-
+Pinus pinaster,VSC,2.0,7.0,-15.67,0.7339778,1.52e-05,-,-,-,-,-
+Pinus pinaster,VSC,3.0,7.0,0.18,0.6607412,-0.0014076,-,-,-,-,-
+Pinus pinaster,VSC,5.0,7.0,-2.4,0.640734,0.0001871,-,-,-,-,-
+Pinus pinaster,IAVC,1.0,21.0,-,-,0.0003741,-9.29e-08,-,-,-,-
+Pinus pinaster,IAVC,2.0,21.0,-,-,0.0003741,-9.29e-08,-,-,-,-
+Pinus pinaster,IAVC,3.0,21.0,-,-,0.0003741,-9.29e-08,-,-,-,-
+Pinus pinaster,IAVC,5.0,21.0,-,-,0.0003741,-9.29e-08,-,-,-,-
+Pinus pinaster,VLE,1.0,12.0,-,-,-,-,5.64e-05,2.24028,-,-
+Pinus pinaster,VLE,2.0,12.0,-,-,-,-,5.64e-05,2.24028,-,-
+Pinus pinaster,VLE,3.0,12.0,-,-,-,-,5.64e-05,2.24028,-,-
+Pinus pinaster,VLE,5.0,12.0,-,-,-,-,5.64e-05,2.24028,-,-
+Pinus radiata,VCC,1.0,1.0,33.43,0.0002719,-,-,-,-,-,-
+Pinus radiata,VCC,2.0,1.0,33.43,0.0002719,-,-,-,-,-,-
+Pinus radiata,VCC,3.0,1.0,2.21,0.0002529,-,-,-,-,-,-
+Pinus radiata,VCC,5.0,1.0,143.14,0.000149,-,-,-,-,-,-
+Pinus radiata,VSC,1.0,7.0,-6.2,0.8062843,1.24e-05,-,-,-,-,-
+Pinus radiata,VSC,2.0,7.0,-6.2,0.8062843,1.24e-05,-,-,-,-,-
+Pinus radiata,VSC,3.0,7.0,-0.67,0.8758525,-0.0023044,-,-,-,-,-
+Pinus radiata,VSC,5.0,7.0,14.12,0.6292313,0.0002362,-,-,-,-,-
+Pinus radiata,IAVC,1.0,21.0,-,-,0.0009187,-9.5491e-07,-,-,-,-
+Pinus radiata,IAVC,2.0,21.0,-,-,0.0009187,-9.5491e-07,-,-,-,-
+Pinus radiata,IAVC,3.0,21.0,-,-,0.0009187,-9.5491e-07,-,-,-,-
+Pinus radiata,IAVC,5.0,21.0,-,-,0.0009187,-9.5491e-07,-,-,-,-
+Pinus radiata,VLE,1.0,12.0,-,-,-,-,0.0014136,1.73113,-,-
+Pinus radiata,VLE,2.0,12.0,-,-,-,-,0.0014136,1.73113,-,-
+Pinus radiata,VLE,3.0,12.0,-,-,-,-,0.0014136,1.73113,-,-
+Pinus radiata,VLE,5.0,12.0,-,-,-,-,0.0014136,1.73113,-,-
+Quercus robur,VCC,2.0,1.0,81.21,0.0002541,-,-,-,-,-,-
+Quercus robur,VCC,3.0,1.0,4.64,0.0002203,-,-,-,-,-,-
+Quercus robur,VCC,4.0,1.0,45.1,0.000114,-,-,-,-,-,-
+Quercus robur,VCC,5.0,1.0,48.87,0.0002,-,-,-,-,-,-
+Quercus robur,VCC,6.0,1.0,48.87,0.0002,-,-,-,-,-,-
+Quercus robur,VSC,2.0,7.0,-13.71,0.8306612,1.01e-05,-,-,-,-,-
+Quercus robur,VSC,3.0,7.0,-0.13,0.7208093,-0.0006619,-,-,-,-,-
+Quercus robur,VSC,4.0,7.0,-5.53,0.8153845,3.66e-05,-,-,-,-,-
+Quercus robur,VSC,5.0,7.0,-19.88,0.8706667,7.9e-06,-,-,-,-,-
+Quercus robur,VSC,6.0,7.0,-19.88,0.8706667,7.9e-06,-,-,-,-,-
+Quercus robur,IAVC,2.0,21.0,-,-,0.0001835,-1.2121e-07,-,-,-,-
+Quercus robur,IAVC,3.0,21.0,-,-,0.0001835,-1.2121e-07,-,-,-,-
+Quercus robur,IAVC,4.0,21.0,-,-,0.0001835,-1.2121e-07,-,-,-,-
+Quercus robur,IAVC,5.0,21.0,-,-,0.0001835,-1.2121e-07,-,-,-,-
+Quercus robur,IAVC,6.0,21.0,-,-,0.0001835,-1.2121e-07,-,-,-,-
+Quercus robur,VLE,2.0,12.0,-,-,-,-,4.83e-05,2.35962,-,-
+Quercus robur,VLE,3.0,12.0,-,-,-,-,4.83e-05,2.35962,-,-
+Quercus robur,VLE,4.0,12.0,-,-,-,-,4.83e-05,2.35962,-,-
+Quercus robur,VLE,5.0,12.0,-,-,-,-,4.83e-05,2.35962,-,-
+Quercus robur,VLE,6.0,12.0,-,-,-,-,4.83e-05,2.35962,-,-
+Quercus pyrenaica,VCC,1.0,1.0,35.81,0.0002706,-,-,-,-,-,-
+Quercus pyrenaica,VCC,2.0,1.0,35.81,0.0002706,-,-,-,-,-,-
+Quercus pyrenaica,VCC,3.0,1.0,15.14,0.00014,-,-,-,-,-,-
+Quercus pyrenaica,VCC,4.0,1.0,77.39,9.73e-05,-,-,-,-,-,-
+Quercus pyrenaica,VCC,5.0,1.0,36.92,0.00021,-,-,-,-,-,-
+Quercus pyrenaica,VCC,6.0,1.0,36.92,0.00021,-,-,-,-,-,-
+Quercus pyrenaica,VSC,1.0,7.0,-17.01,0.8383823,7.4e-06,-,-,-,-,-
+Quercus pyrenaica,VSC,2.0,7.0,-17.01,0.8383823,7.4e-06,-,-,-,-,-
+Quercus pyrenaica,VSC,3.0,7.0,-17.01,0.8383823,7.4e-06,-,-,-,-,-
+Quercus pyrenaica,VSC,4.0,7.0,-10.71,0.8478133,1.74e-05,-,-,-,-,-
+Quercus pyrenaica,VSC,5.0,7.0,-11.85,0.8197191,3.9e-05,-,-,-,-,-
+Quercus pyrenaica,VSC,6.0,7.0,-11.85,0.8197191,3.9e-05,-,-,-,-,-
+Quercus pyrenaica,IAVC,1.0,21.0,-,-,0.0001611,-8.105e-08,-,-,-,-
+Quercus pyrenaica,IAVC,2.0,21.0,-,-,0.0001611,-8.105e-08,-,-,-,-
+Quercus pyrenaica,IAVC,3.0,21.0,-,-,0.0001611,-8.105e-08,-,-,-,-
+Quercus pyrenaica,IAVC,4.0,21.0,-,-,0.0001611,-8.105e-08,-,-,-,-
+Quercus pyrenaica,IAVC,5.0,21.0,-,-,0.0001611,-8.105e-08,-,-,-,-
+Quercus pyrenaica,IAVC,6.0,21.0,-,-,0.0001611,-8.105e-08,-,-,-,-
+Quercus pyrenaica,VLE,1.0,12.0,-,-,-,-,9.44e-05,2.27236,-,-
+Quercus pyrenaica,VLE,2.0,12.0,-,-,-,-,9.44e-05,2.27236,-,-
+Quercus pyrenaica,VLE,3.0,12.0,-,-,-,-,9.44e-05,2.27236,-,-
+Quercus pyrenaica,VLE,4.0,12.0,-,-,-,-,9.44e-05,2.27236,-,-
+Quercus pyrenaica,VLE,5.0,12.0,-,-,-,-,9.44e-05,2.27236,-,-
+Quercus pyrenaica,VLE,6.0,12.0,-,-,-,-,9.44e-05,2.27236,-,-
+Quercus ilex subsp. ballota,VCC,2.0,1.0,49.26,0.000261,-,-,-,-,-,-
+Quercus ilex subsp. ballota,VCC,4.0,1.0,38.7,0.000195,-,-,-,-,-,-
+Quercus ilex subsp. ballota,VCC,5.0,1.0,26.44,0.00023,-,-,-,-,-,-
+Quercus ilex subsp. ballota,VSC,2.0,7.0,-17.01,0.8383823,7.4e-06,-,-,-,-,-
+Quercus ilex subsp. ballota,VSC,4.0,7.0,-10.71,0.8478133,1.74e-05,-,-,-,-,-
+Quercus ilex subsp. ballota,VSC,5.0,7.0,-11.85,0.8197191,3.9e-05,-,-,-,-,-
+Quercus ilex subsp. ballota,IAVC,2.0,21.0,-,-,0.0001177,-1.3542e-07,-,-,-,-
+Quercus ilex subsp. ballota,IAVC,4.0,21.0,-,-,0.0001177,-1.3542e-07,-,-,-,-
+Quercus ilex subsp. ballota,IAVC,5.0,21.0,-,-,0.0001177,-1.3542e-07,-,-,-,-
+Quercus ilex subsp. ballota,VLE,2.0,12.0,-,-,-,-,3.19e-05,2.56596,-,-
+Quercus ilex subsp. ballota,VLE,4.0,12.0,-,-,-,-,3.19e-05,2.56596,-,-
+Quercus ilex subsp. ballota,VLE,5.0,12.0,-,-,-,-,3.19e-05,2.56596,-,-
+Alnus glutinosa,VCC,2.0,1.0,4.78,0.0002735,-,-,-,-,-,-
+Alnus glutinosa,VCC,3.0,1.0,4.78,0.0002735,-,-,-,-,-,-
+Alnus glutinosa,VCC,5.0,1.0,4.78,0.0002735,-,-,-,-,-,-
+Alnus glutinosa,VSC,2.0,7.0,-2.29,0.9171828,4.5e-06,-,-,-,-,-
+Alnus glutinosa,VSC,3.0,7.0,-2.29,0.9171828,4.5e-06,-,-,-,-,-
+Alnus glutinosa,VSC,5.0,7.0,-2.29,0.9171828,4.5e-06,-,-,-,-,-
+Alnus glutinosa,IAVC,2.0,21.0,-,-,0.000326,-3.5924e-07,-,-,-,-
+Alnus glutinosa,IAVC,3.0,21.0,-,-,0.000326,-3.5924e-07,-,-,-,-
+Alnus glutinosa,IAVC,5.0,21.0,-,-,0.000326,-3.5924e-07,-,-,-,-
+Alnus glutinosa,VLE,2.0,12.0,-,-,-,-,0.0009308,1.83129,-,-
+Alnus glutinosa,VLE,3.0,12.0,-,-,-,-,0.0009308,1.83129,-,-
+Alnus glutinosa,VLE,5.0,12.0,-,-,-,-,0.0009308,1.83129,-,-
+Salix atrocinerea,VCC,2.0,1.0,109.53,0.0001481,-,-,-,-,-,-
+Salix atrocinerea,VCC,3.0,1.0,109.53,0.0001481,-,-,-,-,-,-
+Salix atrocinerea,VCC,4.0,1.0,109.53,0.0001481,-,-,-,-,-,-
+Salix atrocinerea,VCC,5.0,1.0,109.53,0.0001481,-,-,-,-,-,-
+Salix atrocinerea,VSC,2.0,7.0,-6.47,0.7939548,3.43e-05,-,-,-,-,-
+Salix atrocinerea,VSC,3.0,7.0,-6.47,0.7939548,3.43e-05,-,-,-,-,-
+Salix atrocinerea,VSC,4.0,7.0,-6.47,0.7939548,3.43e-05,-,-,-,-,-
+Salix atrocinerea,VSC,5.0,7.0,-6.47,0.7939548,3.43e-05,-,-,-,-,-
+Salix atrocinerea,IAVC,2.0,21.0,-,-,0.000206,-2.4931e-07,-,-,-,-
+Salix atrocinerea,IAVC,3.0,21.0,-,-,0.000206,-2.4931e-07,-,-,-,-
+Salix atrocinerea,IAVC,4.0,21.0,-,-,0.000206,-2.4931e-07,-,-,-,-
+Salix atrocinerea,IAVC,5.0,21.0,-,-,0.000206,-2.4931e-07,-,-,-,-
+Salix atrocinerea,VLE,2.0,12.0,-,-,-,-,0.0016601,1.7736,-,-
+Salix atrocinerea,VLE,3.0,12.0,-,-,-,-,0.0016601,1.7736,-,-
+Salix atrocinerea,VLE,4.0,12.0,-,-,-,-,0.0016601,1.7736,-,-
+Salix atrocinerea,VLE,5.0,12.0,-,-,-,-,0.0016601,1.7736,-,-
+Populus nigra,VCC,2.0,1.0,56.04,0.0002424,-,-,-,-,-,-
+Populus nigra,VCC,5.0,1.0,59.08,0.0001293,-,-,-,-,-,-
+Populus nigra,VSC,2.0,7.0,0.26,0.8236223,2.33e-05,-,-,-,-,-
+Populus nigra,VSC,5.0,7.0,0.26,0.8236223,2.33e-05,-,-,-,-,-
+Populus nigra,IAVC,2.0,21.0,-,-,0.0005992,-5.7798e-07,-,-,-,-
+Populus nigra,IAVC,5.0,21.0,-,-,0.0005992,-5.7798e-07,-,-,-,-
+Populus nigra,VLE,2.0,12.0,-,-,-,-,0.0001247,2.16723,-,-
+Populus nigra,VLE,5.0,12.0,-,-,-,-,0.0001247,2.16723,-,-
+Eucalyptus globulus,VCC,1.0,1.0,36.96,0.0002569,-,-,-,-,-,-
+Eucalyptus globulus,VCC,2.0,1.0,36.96,0.0002569,-,-,-,-,-,-
+Eucalyptus globulus,VCC,3.0,1.0,-1.02,0.0002111,-,-,-,-,-,-
+Eucalyptus globulus,VCC,5.0,1.0,21.5,0.000112,-,-,-,-,-,-
+Eucalyptus globulus,VSC,1.0,7.0,0.6,0.7982737,8.5e-06,-,-,-,-,-
+Eucalyptus globulus,VSC,2.0,7.0,0.6,0.7982737,8.5e-06,-,-,-,-,-
+Eucalyptus globulus,VSC,3.0,7.0,0.05,0.7677083,0.0016267,-,-,-,-,-
+Eucalyptus globulus,VSC,5.0,7.0,2.55,0.7571656,8.57e-05,-,-,-,-,-
+Eucalyptus globulus,IAVC,1.0,21.0,-,-,0.0006658,-5.3678e-07,-,-,-,-
+Eucalyptus globulus,IAVC,2.0,21.0,-,-,0.0006658,-5.3678e-07,-,-,-,-
+Eucalyptus globulus,IAVC,3.0,21.0,-,-,0.0006658,-5.3678e-07,-,-,-,-
+Eucalyptus globulus,IAVC,5.0,21.0,-,-,0.0006658,-5.3678e-07,-,-,-,-
+Eucalyptus globulus,VLE,1.0,12.0,-,-,-,-,0.0017465,1.73173,-,-
+Eucalyptus globulus,VLE,2.0,12.0,-,-,-,-,0.0017465,1.73173,-,-
+Eucalyptus globulus,VLE,3.0,12.0,-,-,-,-,0.0017465,1.73173,-,-
+Eucalyptus globulus,VLE,5.0,12.0,-,-,-,-,0.0017465,1.73173,-,-
+Eucalyptus nitens,VCC,2.0,1.0,44.68,0.000218,-,-,-,-,-,-
+Eucalyptus nitens,VCC,3.0,1.0,44.68,0.000218,-,-,-,-,-,-
+Eucalyptus nitens,VCC,5.0,1.0,42.09,0.000151,-,-,-,-,-,-
+Eucalyptus nitens,VSC,2.0,7.0,0.6,0.7982737,8.5e-06,-,-,-,-,-
+Eucalyptus nitens,VSC,3.0,7.0,0.05,0.7677083,0.0016267,-,-,-,-,-
+Eucalyptus nitens,VSC,5.0,7.0,2.55,0.7571656,8.57e-05,-,-,-,-,-
+Eucalyptus nitens,IAVC,2.0,21.0,-,-,0.0006658,-5.3678e-07,-,-,-,-
+Eucalyptus nitens,IAVC,3.0,21.0,-,-,0.0006658,-5.3678e-07,-,-,-,-
+Eucalyptus nitens,IAVC,5.0,21.0,-,-,0.0006658,-5.3678e-07,-,-,-,-
+Eucalyptus nitens,VLE,2.0,12.0,-,-,-,-,4.4e-05,2.39055,-,-
+Eucalyptus nitens,VLE,3.0,12.0,-,-,-,-,4.4e-05,2.39055,-,-
+Eucalyptus nitens,VLE,5.0,12.0,-,-,-,-,4.4e-05,2.39055,-,-
+Eucalyptus nitens,VCC,2.0,1.0,36.96,0.0002569,-,-,-,-,-,-
+Eucalyptus nitens,VCC,3.0,1.0,-1.02,0.0002111,-,-,-,-,-,-
+Eucalyptus nitens,VCC,5.0,1.0,21.5,0.000112,-,-,-,-,-,-
+Eucalyptus nitens,VSC,2.0,7.0,0.6,0.7982737,8.5e-06,-,-,-,-,-
+Eucalyptus nitens,VSC,3.0,7.0,0.05,0.7677083,0.0016267,-,-,-,-,-
+Eucalyptus nitens,VSC,5.0,7.0,2.55,0.7571656,8.57e-05,-,-,-,-,-
+Eucalyptus nitens,IAVC,2.0,21.0,-,-,0.0006658,-5.3678e-07,-,-,-,-
+Eucalyptus nitens,IAVC,3.0,21.0,-,-,0.0006658,-5.3678e-07,-,-,-,-
+Eucalyptus nitens,IAVC,5.0,21.0,-,-,0.0006658,-5.3678e-07,-,-,-,-
+Eucalyptus nitens,VLE,2.0,12.0,-,-,-,-,0.0017465,1.73173,-,-
+Eucalyptus nitens,VLE,3.0,12.0,-,-,-,-,0.0017465,1.73173,-,-
+Eucalyptus nitens,VLE,5.0,12.0,-,-,-,-,0.0017465,1.73173,-,-
+Eucalyptus nitens,VCC,2.0,1.0,3.44,0.0002632,-,-,-,-,-,-
+Eucalyptus nitens,VCC,3.0,1.0,3.44,0.0002632,-,-,-,-,-,-
+Eucalyptus nitens,VCC,5.0,1.0,3.44,0.0002632,-,-,-,-,-,-
+Eucalyptus nitens,VSC,2.0,7.0,0.6,0.7982737,8.5e-06,-,-,-,-,-
+Eucalyptus nitens,VSC,3.0,7.0,0.6,0.7982737,8.5e-06,-,-,-,-,-
+Eucalyptus nitens,VSC,5.0,7.0,0.6,0.7982737,8.5e-06,-,-,-,-,-
+Eucalyptus nitens,IAVC,2.0,21.0,-,-,0.0006658,-5.3678e-07,-,-,-,-
+Eucalyptus nitens,IAVC,3.0,21.0,-,-,0.0006658,-5.3678e-07,-,-,-,-
+Eucalyptus nitens,IAVC,5.0,21.0,-,-,0.0006658,-5.3678e-07,-,-,-,-
+Eucalyptus nitens,VLE,2.0,12.0,-,-,-,-,0.0017465,1.73173,-,-
+Eucalyptus nitens,VLE,3.0,12.0,-,-,-,-,0.0017465,1.73173,-,-
+Eucalyptus nitens,VLE,5.0,12.0,-,-,-,-,0.0017465,1.73173,-,-
+Ilex aquifolium,VCC,2.0,1.0,-7.75,0.0004006,-,-,-,-,-,-
+Ilex aquifolium,VCC,3.0,1.0,-7.75,0.0004006,-,-,-,-,-,-
+Ilex aquifolium,VCC,5.0,1.0,-7.75,0.0004006,-,-,-,-,-,-
+Ilex aquifolium,VSC,2.0,7.0,2.55,0.7571656,8.57e-05,-,-,-,-,-
+Ilex aquifolium,VSC,3.0,7.0,2.55,0.7571656,8.57e-05,-,-,-,-,-
+Ilex aquifolium,VSC,5.0,7.0,2.55,0.7571656,8.57e-05,-,-,-,-,-
+Ilex aquifolium,IAVC,2.0,21.0,-,-,0.0001674,-2.1045e-07,-,-,-,-
+Ilex aquifolium,IAVC,3.0,21.0,-,-,0.0001674,-2.1045e-07,-,-,-,-
+Ilex aquifolium,IAVC,5.0,21.0,-,-,0.0001674,-2.1045e-07,-,-,-,-
+Ilex aquifolium,VLE,2.0,12.0,-,-,-,-,0.0090069,1.42613,-,-
+Ilex aquifolium,VLE,3.0,12.0,-,-,-,-,0.0090069,1.42613,-,-
+Ilex aquifolium,VLE,5.0,12.0,-,-,-,-,0.0090069,1.42613,-,-
+Arbutus unedo ,VCC,3.0,1.0,-7.75,0.0004006,-,-,-,-,-,-
+Arbutus unedo ,VCC,5.0,1.0,-7.75,0.0004006,-,-,-,-,-,-
+Arbutus unedo ,VSC,3.0,7.0,2.55,0.7571656,8.57e-05,-,-,-,-,-
+Arbutus unedo ,VSC,5.0,7.0,2.55,0.7571656,8.57e-05,-,-,-,-,-
+Arbutus unedo ,IAVC,3.0,21.0,-,-,0.0001674,-2.1045e-07,-,-,-,-
+Arbutus unedo ,IAVC,5.0,21.0,-,-,0.0001674,-2.1045e-07,-,-,-,-
+Arbutus unedo ,VLE,3.0,12.0,-,-,-,-,0.0090069,1.42613,-,-
+Arbutus unedo ,VLE,5.0,12.0,-,-,-,-,0.0090069,1.42613,-,-
+Acacia melanoxylon,VCC,2.0,11.0,-,-,-,0.0004732,1.98799,0.75629,-,-
+Acacia melanoxylon,VCC,3.0,11.0,-,-,-,0.0004732,1.98799,0.75629,-,-
+Acacia melanoxylon,VCC,5.0,11.0,-,-,-,0.0004732,1.98799,0.75629,-,-
+Acacia melanoxylon,VSC,2.0,7.0,-4.94,0.8041761,1.86e-05,-,-,-,-,-
+Acacia melanoxylon,VSC,3.0,7.0,-4.94,0.8041761,1.86e-05,-,-,-,-,-
+Acacia melanoxylon,VSC,5.0,7.0,-4.94,0.8041761,1.86e-05,-,-,-,-,-
+Acacia melanoxylon,IAVC,2.0,21.0,-,-,0.0005992,-5.7798e-07,-,-,-,-
+Acacia melanoxylon,IAVC,3.0,21.0,-,-,0.0005992,-5.7798e-07,-,-,-,-
+Acacia melanoxylon,IAVC,5.0,21.0,-,-,0.0005992,-5.7798e-07,-,-,-,-
+Acacia melanoxylon,VLE,2.0,12.0,-,-,-,-,0.0010626,1.85153,-,-
+Acacia melanoxylon,VLE,3.0,12.0,-,-,-,-,0.0010626,1.85153,-,-
+Acacia melanoxylon,VLE,5.0,12.0,-,-,-,-,0.0010626,1.85153,-,-
+Castanea sativa,VCC,2.0,1.0,78.22,0.0002217,-,-,-,-,-,-
+Castanea sativa,VCC,3.0,1.0,9.21,0.0001654,-,-,-,-,-,-
+Castanea sativa,VCC,4.0,1.0,77.74,0.000134,-,-,-,-,-,-
+Castanea sativa,VCC,5.0,1.0,77.74,0.000134,-,-,-,-,-,-
+Castanea sativa,VCC,6.0,1.0,129.07,0.0001544,-,-,-,-,-,-
+Castanea sativa,VSC,2.0,7.0,0.45,0.8470857,7.9e-06,-,-,-,-,-
+Castanea sativa,VSC,3.0,7.0,0.45,0.8470857,7.9e-06,-,-,-,-,-
+Castanea sativa,VSC,4.0,7.0,-17.13,0.875063,1.05e-05,-,-,-,-,-
+Castanea sativa,VSC,5.0,7.0,-12.54,0.8868854,8e-06,-,-,-,-,-
+Castanea sativa,VSC,6.0,7.0,-12.54,0.8868854,8e-06,-,-,-,-,-
+Castanea sativa,IAVC,2.0,21.0,-,-,0.0001088,-4.779e-08,-,-,-,-
+Castanea sativa,IAVC,3.0,21.0,-,-,0.0001088,-4.779e-08,-,-,-,-
+Castanea sativa,IAVC,4.0,21.0,-,-,0.0001088,-4.779e-08,-,-,-,-
+Castanea sativa,IAVC,5.0,21.0,-,-,0.0001088,-4.779e-08,-,-,-,-
+Castanea sativa,IAVC,6.0,21.0,-,-,0.0001088,-4.779e-08,-,-,-,-
+Castanea sativa,VLE,2.0,12.0,-,-,-,-,2.12e-05,2.52613,-,-
+Castanea sativa,VLE,3.0,12.0,-,-,-,-,2.12e-05,2.52613,-,-
+Castanea sativa,VLE,4.0,12.0,-,-,-,-,2.12e-05,2.52613,-,-
+Castanea sativa,VLE,5.0,12.0,-,-,-,-,2.12e-05,2.52613,-,-
+Castanea sativa,VLE,6.0,12.0,-,-,-,-,2.12e-05,2.52613,-,-
+Betula alba,VCC,1.0,1.0,12.68,0.0002535,-,-,-,-,-,-
+Betula alba,VCC,2.0,1.0,12.68,0.0002535,-,-,-,-,-,-
+Betula alba,VCC,3.0,1.0,12.68,0.0002535,-,-,-,-,-,-
+Betula alba,VCC,5.0,1.0,12.68,0.0002535,-,-,-,-,-,-
+Betula alba,VSC,1.0,7.0,2.55,0.7571656,8.57e-05,-,-,-,-,-
+Betula alba,VSC,2.0,7.0,2.55,0.7571656,8.57e-05,-,-,-,-,-
+Betula alba,VSC,3.0,7.0,2.55,0.7571656,8.57e-05,-,-,-,-,-
+Betula alba,VSC,5.0,7.0,2.55,0.7571656,8.57e-05,-,-,-,-,-
+Betula alba,IAVC,1.0,21.0,-,-,0.0002154,-1.8864e-07,-,-,-,-
+Betula alba,IAVC,2.0,21.0,-,-,0.0002154,-1.8864e-07,-,-,-,-
+Betula alba,IAVC,3.0,21.0,-,-,0.0002154,-1.8864e-07,-,-,-,-
+Betula alba,IAVC,5.0,21.0,-,-,0.0002154,-1.8864e-07,-,-,-,-
+Betula alba,VLE,1.0,12.0,-,-,-,-,4.66e-05,2.38142,-,-
+Betula alba,VLE,2.0,12.0,-,-,-,-,4.66e-05,2.38142,-,-
+Betula alba,VLE,3.0,12.0,-,-,-,-,4.66e-05,2.38142,-,-
+Betula alba,VLE,5.0,12.0,-,-,-,-,4.66e-05,2.38142,-,-
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+Nomenclatura,,,,,,,,,,,
+VCC = volumen maderable con corteza en decímetros cúbicos ,,,,,D.n. = diámetro normal en milímetros ,,,,,,
+VSC = volumen maderable sin corteza en dm3.,,,,,D.n.m = media aritmética del D.n. (mm),,,,,,
+IAVC = incremento anual de volumen con corteza en dm3.,,,,,C.D. = clase diamétrica (cm),,,,,,
+VLE = volumen de leñas gruesas en dm3.,,,,,C.D.m = media aritmética de la C.D. (cm),,,,,,
+F.c. = Forma de cubicación (ver Anexos a Resumen del método).,,,,,H.t. = altura total en metros (m),,,,,,

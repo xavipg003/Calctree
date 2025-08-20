@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section class="converter-block" id="main">
+        <h2>Calculadora Cubicación</h2>
+        <p></p>
+
+        <form method="POST">
+            <input type="hidden" name="id" value="select_province">
+
+            <label>Provincia:</label>
+            <select id="province" name="province" required>
+                {% for u in province_list %}
+                    <option value="{{ u }}" {% if u == selection.province %}selected{% endif %}>{{ u }}</option>
+                {% endfor %}
+            </select>
+            
+            <button type="submit">Seleccionar Provincia</button>
+
+        </form>
+
+        <form method="POST">
+            <input type="hidden" name="id" value="calc_final">
+            <input type="hidden" name="province" value="{{ selection.province }}">
+
+            <label>Valor a calcular:</label>
+            <select id="outs" name="outs" required>
+                {% for u in out_list %}
+                    <option value="{{ u }}" {% if u == selection.out %}selected{% endif %}>{{ u }}</option>
+                {% endfor %}
+            </select>
+
+            <label>Especie:</label>
+            <select id="species" name="species" required>
+                {% for u in species_list %}
+                    <option value="{{ u }}" {% if u == selection.species %}selected{% endif %}>{{ u }}</option>
+                {% endfor %}
+            </select>
+
+            <label>Forma de Cubicación:</label>
+            <select id="cubication" name="cubication" required>
+                {% for u in cubic_list %}
+                    <option value="{{ u }}" {% if u == selection.cubication %}selected{% endif %}>{{ u }}</option>
+                {% endfor %}
+            </select>
+
+            <label>Diámetro Nominal(mm):</label>
+            <input type="number" id="Dn" name="Dn" step="any" value="{{ selection.Dn }}" required>
+
+            <label>Altura total(m):</label>
+            <input type="number" id="Ht" name="Ht" step="any" value="{{ selection.Ht }}" required>
+
+            <button type="submit">Calcular</button>
+        </form>
+
+        {% if result.value is not none %}
+            <div class="result-box" style="text-align: center;">
+                <strong>Resultado:</strong> {{ result.value }} {{ result.units }}
+            </div>
+        {% endif %}
+    </section>
+
+{% endblock %}
